@@ -1,0 +1,47 @@
+ /* FILE: app/not-found.css */
+
+.notfound-page {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background: #fff8f0;
+}
+
+.notfound-code {
+  font-size: 7rem;
+  font-weight: 900;
+  color: #c8500a;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.notfound-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.notfound-msg {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.notfound-btn {
+  background: #c8500a;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.notfound-btn:hover {
+  background: #a84008;
+}
