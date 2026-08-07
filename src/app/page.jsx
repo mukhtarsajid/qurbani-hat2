@@ -3,7 +3,7 @@ import AnimalCard from "./components/AnimalCard";
 import "./page.css";
 
 async function getAnimals() {
-  const res = await fetch("http://localhost:3000/animals.json", {
+  const res = await fetch("https://qurbani-hat2.vercel.app/.json", {
     cache: "no-store",
   });
   return res.json();
