@@ -7,7 +7,7 @@ import { useAuth } from "../context/AuthContext";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Toast from "../components/Toast";
-import "../details-page/[id]/login/login.css";
+import "../login/login.css";
 
 export default function RegisterPage() {
   const { register, googleLogin, updateUserProfile } = useAuth();
@@ -96,7 +96,8 @@ export default function RegisterPage() {
         <div className="auth-divider"><span>or</span></div>
 
         <button className="google-btn" onClick={handleGoogle}>
-          <img src="/google-icon.png" alt="Google" width={20} />
+          <span>G</span>
+          {/* <img src="/google-icon.png" alt="Google" width={20} /> */}
           Continue with Google
         </button>
 
