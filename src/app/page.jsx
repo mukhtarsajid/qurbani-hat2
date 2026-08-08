@@ -1,13 +1,20 @@
  
-import AnimalCard from "./components/AnimalCard";
+import AnimalCard from "../components/AnimalCard";
+// import AnimalCard from "./components/AnimalCard";
 import "./page.css";
 
 async function getAnimals() {
-  const res = await fetch("https://qurbani-hat2.vercel.app/.json", {
+  const res = await fetch("https://qurbani-hat2.vercel.app//animals.json", {
     cache: "no-store",
   });
   return res.json();
 }
+// async function getAnimals() {
+//   const res = await fetch("http://localhost:3000/animals.json", {
+//     cache: "no-store",
+//   });
+//   return res.json();
+// }
 
 export default async function HomePage() {
   const animals = await getAnimals();

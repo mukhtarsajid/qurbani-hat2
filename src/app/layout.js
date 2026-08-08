@@ -1,8 +1,8 @@
  // FILE: app/layout.js
 
-import { AuthProvider } from "./context/AuthContext";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import { AuthProvider } from "../context/AuthContext";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "./styles/globals.css";
 import "animate.css";
 

@@ -3,7 +3,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import AnimalCard from "../components/AnimalCard";
+import AnimalCard from "../../components/AnimalCard";
 import "./animals.css";
 
 export default function AnimalsPage() {

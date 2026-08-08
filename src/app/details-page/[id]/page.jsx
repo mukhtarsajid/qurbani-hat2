@@ -4,8 +4,8 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { useAuth } from "../../context/AuthContext";
-import Toast from "../../components/Toast";
+import { useAuth } from "../../../context/AuthContext";
+import Toast from "../../../components/Toast";
 import "./details.css";
 
 export default function DetailsPage() {

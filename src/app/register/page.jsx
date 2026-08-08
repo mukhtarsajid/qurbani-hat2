@@ -3,10 +3,11 @@
 "use client";
 
 import { useState } from "react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Toast from "../components/Toast";
+import Toast from "../../components/Toast";
+// import "../details-page/[id]/login/login.css";
 import "../login/login.css";
 
 export default function RegisterPage() {
